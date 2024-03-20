@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <title>POPCAT CLASSIC</title>
     <meta name="author" content="Joshua O'Sullivan, Freddy Heppell, Edward Hails">
@@ -9,6 +9,10 @@
 
     <meta name="msapplication-TileColor" content="#b721ff">
     <meta name="theme-color" content="#b721ff">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap&text=0123456789" rel="stylesheet">
 
     <style>
         html { height:100%; overflow:hidden; }
@@ -33,7 +37,7 @@
             top:50%;left:50%;
             z-index:-1;
             transform:translate(-50%,-50%) rotate(-3deg);
-            background-image: url("pop/bg.jpg");
+            background-image: url("imgs/bg.jpg");
             background-repeat: repeat-x;
             background-size: contain;
         }
@@ -70,8 +74,8 @@
                 -webkit-text-stroke-width: 1.5px;
             }
         }
-        #p { background-image: url("pop/p.png"); }
-        #op { background-image: url("pop/op.png"); }
+        #p { background-image: url("imgs/p.png"); }
+        #op { background-image: url("imgs/op.png"); }
     </style>
 </head>
 
@@ -90,10 +94,10 @@
 
     /*Pop mp3s*/
     pops = [
-        "pop/pop1.mp3",
-        "pop/pop2.mp3",
-        "pop/pop3.mp3",
-        "pop/pop4.mp3",
+        "pops/pop1.mp3",
+        "pops/pop2.mp3",
+        "pops/pop3.mp3",
+        "pops/pop4.mp3",
     ]
     pop_i = 0
 
